@@ -1,14 +1,13 @@
 ---
 title: Python - Python?
 categories:
-  - python
+  - Python
   - language
 tags:
   - python
 date: 2016-06-23 20:17:28
 thumbnail: https://www.python.org/static/opengraph-icon-200x200.png
 ---
-
 
 <!-- toc orderedList:0 -->
 
@@ -21,6 +20,7 @@ thumbnail: https://www.python.org/static/opengraph-icon-200x200.png
 		- [만능 언어](#만능-언어)
 	- [결론](#결론)
 	- [Reference](#reference)
+		- [Related Posts](#related-posts)
 
 <!-- tocstop -->
 
