@@ -2,7 +2,7 @@
 title: Python - Python?
 categories:
   - Python
-  - language
+  - Language
 tags:
   - python
 date: 2016-06-23 20:17:28
@@ -27,7 +27,7 @@ thumbnail: https://www.python.org/static/opengraph-icon-200x200.png
 
 # **Python 이란? 사랑입니다.**
 
-이 포스팅은 가로 1400px 이상의 화면에 최적화 되있습니다.
+이 포스팅은 가로 1400px 이상의 화면에 최적화 되있습니다. 
 
 저는 Python 개발자입니다. 매일 같이 Python을 사용하여 로직을 구현하고, 프로그램을 작성합니다. Python은 정말 재밌습니다. 간결한 문법, 상상을 뛰어넘는 가독성!! 무엇보다 생산성에서는 제가 접한 몇개 안되는 언어들 중 최고에 속합니다. 또한 풍부한 모듈과 내장함수들은 Python과 사랑에 빠지게 만듭니다.
 

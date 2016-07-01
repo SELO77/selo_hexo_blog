@@ -2,11 +2,11 @@
 title: {{ title }}
 date: {{ date }}
 categories:
-  - python
-  - language
+  - Python
+  - Language
 tags:
   - python
-  
+
 thumbnail:  
 ---
 
