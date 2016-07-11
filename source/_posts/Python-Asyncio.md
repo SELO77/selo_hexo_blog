@@ -19,6 +19,7 @@ thumbnail: https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQ-llODQKuO5a5mG
 <img src="https://docs.python.org/3/_images/tulip_coro.png">
 
 비동기, 병령처리, 동시성 너무나 자주 듣는 용어들이지만 깔끔하게 머릿속에 정리가 되지않습니다. 매일 같이 아래와 같은 코딩을 비동기 기반 개발을 함에도 불구하고 반에 반 밖에 이해를 못하고 코딩을 하는것 같습니다.ㅠㅠ 그래서 이번 기회에 포스팅을 통해 AsyncIO 비동기 모듈을 완벽 정복해보려 합니다.
+
 ```python
 import asyncio
 
@@ -31,7 +32,7 @@ def an_asyn_fnc():
   return item
 
 @asyncio.coroutine
-def another_asynfnc()
+def another_asynfnc():
   query = """
   SELECT * FROM users WHERE userID = 'SELO'
   """
@@ -87,5 +88,7 @@ print(next(generator)) # 1
 ## Reference
 [Python 3, asyncio와 놀아보기](http://b.ssut.me/58)
 rochan87@gmail.com 필자의 머릿속.
+
+**잘못된 정보에 대한 지적은 언제든지 감사히 받겠습니다.**
 
 <!-- ### Related Posts -->
