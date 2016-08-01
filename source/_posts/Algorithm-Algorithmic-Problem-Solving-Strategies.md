@@ -46,3 +46,4 @@ thumbnail: http://book.algospot.com/static/img/cover1-small.png
 
 
 ### Related Posts
+{% post_link Algorithm-Algorithmic-Problem-Solving-Strategies-02Solving-Problem-Overview %}
