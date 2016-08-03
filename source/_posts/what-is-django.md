@@ -9,7 +9,7 @@ tags:
   - MTV
   - MVC
 date: 2016-08-01 20:44:09
-thumbnail: http://localhost:4000/2016/08/01/what-is-django/jango.png
+thumbnail: https://selo77.github.io/2016/08/01/what-is-django/jango.png
 ---
 
 ## Django란?
