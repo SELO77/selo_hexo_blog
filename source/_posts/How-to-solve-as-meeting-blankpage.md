@@ -1,8 +1,8 @@
 ---
 title: 프로덕션 환경에서 블랭크 페이지를 만난다면?
 categories:
-  - Web
-  - Problem
+  - DevEnv
+  - ETC
 tags:
   - ELKR
   - 로그분석
