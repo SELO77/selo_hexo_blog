@@ -1,5 +1,5 @@
 ---
-title: The Django Begining (MVC Vs MTV)
+title: The Django Beginning (MVC Vs MTV)
 categories:
   - Python
   - Django
