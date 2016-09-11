@@ -85,13 +85,48 @@ print one_weeks_ago # 2016-08-26 22:38:09.543477
 
 
 ## tzinfo Objects
+만약 제공하는 서비스가 우리나라로 국한된다면 tzinfo 오브젝트 까지 굳이 사용은 필요는 없습니다. 서버가 해외에 있는 경우는 조금 다르지만... 하지만 글로벌 서비스를 하거나 특정 timezone 구현이 필요하다면 !!! tzinfo objects를 활용하면 원하는 timezone objects를 만들어 사용할수 있습니다.
 
 
 ## date, time Objects
 위 Objects 이외에도 date, time Objects가 존재하지만 저같은 경우는 datetime Objects로 대부분 처리 함으로 이 Objects에 대한 설명은 생략하도록 하겠습니다. 원하시는 분은 아래 Reference의 datetime module API를 살펴보시기 바랍니다.
 
 
+## 결론
+datetime module에는 정말 많은 기능들이 내장되어 있습니다. 잘찾아 잘쓰시면 됩니다....!!
+```python
+import datetime
 
+
+now = datetime.datetime.now()
+print now # 2016-09-04 16:33:11.164451
+
+now_date = now.date()
+print now_date # 2016-09-04
+print type(now_date) # <type 'datetime.date'>
+
+now = now.replace(year=2000)
+print now # 2000-09-04 16:35:03.646963
+
+d = datetime.date(1987, 04, 13)
+t = datetime.time(01, 01, 59)
+
+dt = datetime.datetime.combine(d, t)
+print dt
+
+dt_tuple = dt.timetuple()
+for i in dt_tuple:
+  print i
+  # 1987
+  # 4
+  # 13
+  # 1
+  # 1
+  # 59
+  # 0
+  # 103
+  # -1
+```
 
 ## Reference
 * [overapi/python](http://overapi.com/python)
