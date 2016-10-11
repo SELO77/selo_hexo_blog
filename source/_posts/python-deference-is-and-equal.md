@@ -16,7 +16,7 @@ Python은 직관적이고 하이레벨 프로그래밍 언어입니다. 이에 �
 >>> things[:]
 [1, 2, 3]
 >>> things == things[:]
-Ture
+True
 ```
 things와 things[:] 값을 비교하였고, True를 반환 받았습니다. 그렇다면 is를 사용하여 한번더 비교해보겠습니다.
 
