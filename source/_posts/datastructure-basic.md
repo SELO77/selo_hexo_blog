@@ -40,7 +40,8 @@ thumbnail: https://raw.githubusercontent.com/SELO77/selo77.github.io/master/2016
 [rochan87@gmail.com](rochan87@gmail.com)
 
 ## Related Posts
-* {% post_link Algorithm-Algorithmic-Problem-Solving-Strategies-02Solving-Problem-Overview %}
+* {% post_link Algorithm-Algorithmic-Problem-Solving-Strategies-02Solving-Problem-Overview %},
+
 * {% post_link Algorithm-Algorithmic-Problem-Solving-Strategies %}
 
 <br/>
